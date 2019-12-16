@@ -12,7 +12,7 @@ class ValidParenthesis:
 
 
 if __name__ == "__main__":
-    assert (ValidParenthesis().isValid("()") == True)
-    assert (ValidParenthesis().isValid("([)") == False)
-    assert (ValidParenthesis().isValid("[(])") == False)
-    assert (ValidParenthesis().isValid("()[]{}") == True)
+    assert(ValidParenthesis().isValid("()") == True)
+    assert(ValidParenthesis().isValid("([)") == False)
+    assert(ValidParenthesis().isValid("[(])") == False)
+    assert(ValidParenthesis().isValid("()[]{}") == True)
